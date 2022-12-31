@@ -9,7 +9,6 @@ int main()
     string boys_girls;
     cin>>childern_num>>seconds_countdown>>boys_girls;
 
-    char temp;
     childern_num--;
     for(;seconds_countdown!=0; seconds_countdown--){
         for(int i=0; i<childern_num;i++){
