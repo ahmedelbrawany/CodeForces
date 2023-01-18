@@ -12,16 +12,7 @@ bool search(int num){
         y++;
         x= (num-y*2021)/2020;
     }
-    x=1;
-    y=(num-x*2020)/2021;
-    while(y>0&&num >= x*2020+y*2021){
-        if(x*2020+y*2021==num){
-            return true;
-        }
-        x++;
-        y= (num-x*2020)/2021;
 
-    }
     return false;
 }
 
